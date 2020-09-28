@@ -80,7 +80,7 @@ def main(argv):
 
     # Task #12 (1 point):
 
-    temp_fahrenheit = 212
+    temp_fahrenheit = 63
     temp_celsius = (temp_fahrenheit - 32) * 5.0 / 9.0
     print(str(temp_fahrenheit) + " degrees Fahrenheit is " +
           str(temp_celsius) + " degrees Celsius")

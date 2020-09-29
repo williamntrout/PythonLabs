@@ -27,15 +27,14 @@ def main(argv):
     print(9.999999999999999999999999)
     print(type(7 - 1))
     print(float(5))
-    print(((2 - 5)** 13 / ((157 + 594 * 7)** 23 % 1337) - 4 ** 19) % 664)
-    
-   
+    print(((2 - 5) ** 13 / ((157 + 594 * 7) ** 23 % 1337) - 4 ** 19) % 664)
+    print((2 - 9) % 3)
 
-    
-    
-    
+    print(sum(3 5))
 
-    
+    temp_fahrenheit = 63
+    temp_celsius = (temp_fahrenheit - 32) * 5.0 / 9.0
+    print(str(round(temp_celsius, 2)))
 
 
 if __name__ == '__main__':
